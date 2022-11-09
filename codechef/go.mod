@@ -1,4 +1,4 @@
-module github.com/Linuxinet/contests
+module github.com/Linuxinet/quicktools/codechef
 
 go 1.19
 

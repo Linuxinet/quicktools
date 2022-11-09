@@ -12,16 +12,14 @@ func main() {
 
 	c_name := make([]string, 0, 500)
 	c_start_date := make([]string, 0, 500)
-	// c_end_date := make([]string, 0, 500)
-	// c_duration := make([]string, 0, 500)
 	c_code := make([]string, 0, 500)
 
 	//////future
-    f_c_name := make([]string, 0, 500)
-    f_c_start_date := make([]string, 0, 500)
-    f_c_end_date := make([]string, 0, 500)
-    f_c_duration := make([]string, 0, 500)
-    f_c_code := make([]string, 0, 500)
+	f_c_name := make([]string, 0, 500)
+	f_c_start_date := make([]string, 0, 500)
+	f_c_end_date := make([]string, 0, 500)
+	f_c_duration := make([]string, 0, 500)
+	f_c_code := make([]string, 0, 500)
 
 	URL := "https://www.codechef.com/api/list/contests/all?sort_by=START&sorting_order=asc&offset=0&mode=premium"
 
@@ -36,8 +34,6 @@ func main() {
 	con_name := gjson.Get(string(apibody), "present_contests.#.contest_name")
 	con_code := gjson.Get(string(apibody), "present_contests.#.contest_code")
 	con_start_date := gjson.Get(string(apibody), "present_contests.#.contest_start_date")
-	// con_end_date := gjson.Get(string(apibody), "present_contests.#.contest_end_date")
-	// con_duration := gjson.Get(string(apibody), present_contests.#.contest_duration)
 
 	////////////////////////////////////future
 	f_con_name := gjson.Get(string(apibody), "future_contests.#.contest_name")
@@ -64,7 +60,7 @@ func main() {
 	fmt.Println("                    ")
 	fmt.Println("                    ")
 	for a := range c_name {
-		fmt.Printf("##%d\n\nContest Name: %s\n\nContest Code: %s\n\nStart Time: %s\n\n\n",a+1, c_name[a], c_code[a], c_start_date[a])
+		fmt.Printf("##%d\n\nContest Name: %s\n\nContest Code: %s\n\nStart Time: %s\n\n\n", a+1, c_name[a], c_code[a], c_start_date[a])
 	}
 
 	//future
