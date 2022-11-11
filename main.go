@@ -77,11 +77,15 @@ func (ct *CustomTime) UnmarshalJSON(b []byte) (err error) {
 }
 
 func main() {
+	
+	var id int
 
-	Contests := map[string]map[string]map[string]string{}
-	Contests["CodeChef"] = make(map[string]map[string]string)
-	Contests["CodeChef"]["FutureContests"] = make(map[string]string)
-	Contests["CodeChef"]["PresentContests"] = make(map[string]string)
+	Contests := make(map[string]map[string]map[string]map[string]string)
+	Contests["CodeChef"] = make(map[string]map[string]map[string]string)
+	Contests["CodeChef"]["PresentContests"] = make(map[string]map[string]string)
+	Contests["CodeChef"]["FutureContests"] = make(map[string]map[string]string)
+	Contests["CodeChef"]["FutureContests"][string(rune(id))] = make(map[string]string)
+	Contests["CodeChef"]["PresentContests"][string(rune(id))] = make(map[string]string)
 
 	// c_name := make([]string, 0, 500)
 	// c_start_date := make([]string, 0, 500)
@@ -113,23 +117,23 @@ func main() {
 	}
 
 	fmt.Println(len(jsonbody.FutureContests))
-	for i, p := range jsonbody.FutureContests {
+	for id, p := range jsonbody.FutureContests {
 
-		Contests["CodeChef"]["FutureContests"][i]["Name"] = p.ContestName
-		Contests["CodeChef"]["FutureContests"][i]["Code"] = p.ContestCode
-		Contests["CodeChef"]["FutureContests"][i]["Start"] = p.ContestStartDate
-		Contests["CodeChef"]["FutureContests"][i]["End"] = p.ContestEndDate
-		Contests["CodeChef"]["FutureContests"][i]["Duration"] = p.ContestDuration
+		Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Name"] = p.ContestName
+		Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Code"] = p.ContestCode
+		Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Start"] = p.ContestStartDate
+		Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["End"] = p.ContestEndDate
+		Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Duration"] = p.ContestDuration
 	}
 
-	for _, p := range jsonbody.PresentContests {
+	for id, p := range jsonbody.PresentContests {
 		// c_name = append(c_name, p.ContestName)
 		// c_code = append(c_code, p.ContestCode)
 		// c_start_date = append(c_start_date, p.ContestStartDate)
 
-		Contests["CodeChef"]["PresentContests"]["Name"] = p.ContestName
-		Contests["CodeChef"]["PresentContests"]["Code"] = p.ContestCode
-		Contests["CodeChef"]["PresentContests"]["Start"] = p.ContestStartDate
+		Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Name"] = p.ContestName
+		Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Code"] = p.ContestCode
+		Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Start"] = p.ContestStartDate
 	}
 
 	// fmt.Println(contests)
