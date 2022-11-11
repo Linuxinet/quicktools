@@ -102,17 +102,7 @@ func main() {
 		log.Println(err)
 	}
 
-	// fmt.Println(len(jsonbody.FutureContests))
 	for id, p := range jsonbody.FutureContests {
-
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))] = make(map[string]string)
-
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Name"] = p.ContestName
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Code"] = p.ContestCode
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Start"] = p.ContestStartDate
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["End"] = p.ContestEndDate
-		// Contests["CodeChef"]["FutureContests"][string(rune(id+1))]["Duration"] = p.ContestDuration
-
 		Contests["CodeChef"]["FutureContests"][string(strconv.Itoa(id+1))] = map[string]string{
 
 			"Name":     p.ContestName,
@@ -130,10 +120,6 @@ func main() {
 			"Code":  p.ContestCode,
 			"Start": p.ContestStartDate,
 		}
-
-		// Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Name"] = p.ContestName
-		// Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Code"] = p.ContestCode
-		// Contests["CodeChef"]["PresentContests"][string(rune(id+1))]["Start"] = p.ContestStartDate
 	}
 
 	// fmt.Println(Contests)
