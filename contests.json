@@ -40,11 +40,6 @@
   },
   "PresentContests": {
    "1": {
-    "Code": "START65",
-    "Name": "Starters 65 (Rated till 6-Stars)",
-    "Start": "16 Nov 2022  20:00:00"
-   },
-   "2": {
     "Code": "GAMES",
     "Name": "1v1 Games by CodeChef",
     "Start": "10 Oct 2022  12:00:00"
