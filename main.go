@@ -150,8 +150,10 @@ func AtcoderFunc(Contests map[string]map[string]map[string]map[string]string) {
 		rawI := strconv.Itoa(i)
 		Contests["AtCoder"]["FutureContests"][rawI] = make(map[string]string)
 
-		ContestSelTime := fmt.Sprintf("#contest-table-upcoming  div  div  table  tbody  tr:nth-child(%d)  td:nth-child(1)  a", i+1)
+		ContestSelTime := fmt.Sprintf("#contest-table-upcoming  div  div  table  tbody  tr:nth-child(%d)  td:nth-child(1)  a", i)
 		ContestSelName := fmt.Sprintf("#contest-table-upcoming  div  div  table  tbody  tr:nth-child(%d)  td:nth-child(2)", i)
+		//#contest-table-upcoming > div > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > a > time
+		//#contest-table-upcoming > div > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > a > time
 
 		// for contest name
 		collector.OnHTML(ContestSelName, func(element *colly.HTMLElement) {
