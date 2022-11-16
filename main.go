@@ -3,7 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+
 	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
@@ -11,15 +13,12 @@ import (
 	"time"
 
 	"github.com/TylerBrock/colorjson"
+	"github.com/gocolly/colly"
 )
 
 type GetContestsResponse struct {
-	Status           string             `json:"status"`
-	Message          string             `json:"message"`
-	PresentContests  []PresentContests  `json:"present_contests"`
-	FutureContests   []FutureContests   `json:"future_contests"`
-	PracticeContests []PracticeContests `json:"practice_contests"`
-	PastContests     []PastContests     `json:"past_contests"`
+	PresentContests []PresentContests `json:"present_contests"`
+	FutureContests  []FutureContests  `json:"future_contests"`
 }
 type PresentContests struct {
 	ContestCode         string     `json:"contest_code"`
@@ -35,31 +34,14 @@ type FutureContests struct {
 	ContestStartDateIso CustomTime `json:"contest_start_date_iso,omitempty"`
 	ContestEndDateIso   CustomTime `json:"contest_end_date_iso,omitempty"`
 	ContestDuration     string     `json:"contest_duration,omitempty"`
-	DistinctUsers       int        `json:"distinct_users,omitempty"`
-}
-type PracticeContests struct {
-	ContestCode         string     `json:"contest_code"`
-	ContestName         string     `json:"contest_name"`
-	ContestStartDate    string     `json:"contest_start_date"`
-	ContestEndDate      string     `json:"contest_end_date"`
-	ContestStartDateIso CustomTime `json:"contest_start_date_iso"`
-	ContestEndDateIso   CustomTime `json:"contest_end_date_iso"`
-	ContestDuration     string     `json:"contest_duration"`
-	DistinctUsers       int        `json:"distinct_users"`
-}
-type PastContests struct {
-	ContestCode         string     `json:"contest_code"`
-	ContestName         string     `json:"contest_name"`
-	ContestStartDate    string     `json:"contest_start_date"`
-	ContestEndDate      string     `json:"contest_end_date"`
-	ContestStartDateIso CustomTime `json:"contest_start_date_iso"`
-	ContestEndDateIso   CustomTime `json:"contest_end_date_iso"`
-	ContestDuration     string     `json:"contest_duration"`
-	DistinctUsers       int        `json:"distinct_users"`
 }
 
 type CustomTime struct {
 	time.Time
+}
+
+type AtcoderName struct {
+	Name string
 }
 
 const TimeFormat = time.RFC3339
@@ -83,6 +65,9 @@ func main() {
 	Contests["CodeChef"] = make(map[string]map[string]map[string]string)
 	Contests["CodeChef"]["PresentContests"] = make(map[string]map[string]string)
 	Contests["CodeChef"]["FutureContests"] = make(map[string]map[string]string)
+
+	Contests["AtCoder"] = make(map[string]map[string]map[string]string)
+	Contests["AtCoder"]["FutureContests"] = make(map[string]map[string]string)
 
 	URL := "https://www.codechef.com/api/list/contests/all?sort_by=START&sorting_order=asc&offset=0&mode=premium"
 
@@ -122,6 +107,7 @@ func main() {
 		}
 	}
 
+	AtcoderFunc(Contests)
 	// fmt.Println(Contests)
 
 	jsonStr, err := json.Marshal(Contests)
@@ -132,12 +118,62 @@ func main() {
 	var obj map[string]interface{}
 	json.Unmarshal([]byte(jsonStr), &obj)
 
+	writeJSON(obj)
+
 	// Make a custom formatter with indent set
 	f := colorjson.NewFormatter()
 	f.Indent = 4
 
-	// Marshall the Colorized JSON
-	s, _ := f.Marshal(obj)
-	fmt.Println(string(s))
+}
+
+func writeJSON(data map[string]interface{}) {
+	file, err := json.MarshalIndent(data, "", " ")
+	if err != nil {
+		log.Println("Unable to create json file")
+		return
+	}
+
+	_ = ioutil.WriteFile("contests.json", file, 0644)
+	fmt.Println("Wrote Contest data to contests.json")
+}
+
+func AtcoderFunc(Contests map[string]map[string]map[string]map[string]string) {
+	collector := colly.NewCollector(
+		colly.AllowedDomains("atcoder.jp", "www.atcoder.jp"),
+	)
+
+	format := "2006-01-02 15:04:05-0700"
+	loc, _ := time.LoadLocation("Asia/Calcutta")
+
+	for i := 1; i < 10; i++ {
+
+		rawI := strconv.Itoa(i)
+		Contests["AtCoder"]["FutureContests"][rawI] = make(map[string]string)
+
+		ContestSelTime := fmt.Sprintf("#contest-table-upcoming  div  div  table  tbody  tr:nth-child(%d)  td:nth-child(1)  a", i+1)
+		ContestSelName := fmt.Sprintf("#contest-table-upcoming  div  div  table  tbody  tr:nth-child(%d)  td:nth-child(2)", i)
+
+		// for contest name
+		collector.OnHTML(ContestSelName, func(element *colly.HTMLElement) {
+			ContestName := element.ChildText("a")
+			Contests["AtCoder"]["FutureContests"][rawI]["Name"] = ContestName
+
+		})
+
+		// for contestTime
+		collector.OnHTML(ContestSelTime, func(element *colly.HTMLElement) {
+			ContestStartTime := element.ChildText("time")
+			parsed_time, _ := time.Parse(format, ContestStartTime)
+			IST_time := parsed_time.In(loc)
+			Contests["AtCoder"]["FutureContests"][rawI]["Start"] = fmt.Sprint(IST_time)
+		})
+
+	}
+
+	collector.OnRequest(func(request *colly.Request) {
+		fmt.Println("Visiting : ", request.URL.String())
+	})
+
+	collector.Visit("https://atcoder.jp/contests")
 
 }
