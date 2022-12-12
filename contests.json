@@ -50,11 +50,6 @@
   },
   "PresentContests": {
    "1": {
-    "Code": "DEC221",
-    "Name": "December Long 2022 (Rated for Div 3 \u0026 4)",
-    "Start": "10 Dec 2022  20:00:00"
-   },
-   "2": {
     "Code": "GAMES",
     "Name": "1v1 Games by CodeChef",
     "Start": "10 Oct 2022  12:00:00"
