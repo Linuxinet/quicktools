@@ -2,17 +2,14 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "Hitachi Hokudai Lab. \u0026 Hokkaido University Contest 2022",
-    "Start": "2022-12-22 20:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "UNIQUE VISION Programming Contest 2022 Winter(AtCoder Beginner Contest 283)",
     "Start": "2022-12-24 17:30:00 +0530 IST"
    },
-   "3": {
+   "2": {
     "Name": "AtCoder Grand Contest 060",
     "Start": "2022-12-25 17:30:00 +0530 IST"
    },
+   "3": {},
    "4": {},
    "5": {},
    "6": {},
@@ -29,6 +26,41 @@
     "End": "28 Dec 2022  23:00:00",
     "Name": "Starters 71",
     "Start": "28 Dec 2022  20:00:00"
+   },
+   "2": {
+    "Code": "START72",
+    "Duration": "180",
+    "End": "04 Jan 2023  23:00:00",
+    "Name": "Starters 72",
+    "Start": "04 Jan 2023  20:00:00"
+   },
+   "3": {
+    "Code": "START73",
+    "Duration": "180",
+    "End": "11 Jan 2023  23:00:00",
+    "Name": "Starters 73",
+    "Start": "11 Jan 2023  20:00:00"
+   },
+   "4": {
+    "Code": "JAN231",
+    "Duration": "2580",
+    "End": "16 Jan 2023  15:00:00",
+    "Name": "January Long 2022 ",
+    "Start": "14 Jan 2023  20:00:00"
+   },
+   "5": {
+    "Code": "START74",
+    "Duration": "180",
+    "End": "18 Jan 2023  23:00:00",
+    "Name": "Starters 74",
+    "Start": "18 Jan 2023  20:00:00"
+   },
+   "6": {
+    "Code": "START75",
+    "Duration": "180",
+    "End": "25 Jan 2023  23:00:00",
+    "Name": "Starters 75",
+    "Start": "25 Jan 2023  20:00:00"
    }
   },
   "PresentContests": {
