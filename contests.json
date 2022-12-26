@@ -1,8 +1,14 @@
 {
  "AtCoder": {
   "FutureContests": {
-   "1": {},
-   "2": {},
+   "1": {
+    "Name": "AtCoder Beginner Contest 284",
+    "Start": "2023-01-07 17:30:00 +0530 IST"
+   },
+   "2": {
+    "Name": "AtCoder Beginner Contest 285",
+    "Start": "2023-01-14 17:30:00 +0530 IST"
+   },
    "3": {},
    "4": {},
    "5": {},
