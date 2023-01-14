@@ -2,57 +2,47 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "AtCoder Regular Contest 153",
-    "Start": "2023-01-14 17:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "AtCoder Beginner Contest 285",
     "Start": "2023-01-15 17:30:00 +0530 IST"
    },
-   "3": {
+   "2": {
     "Name": "UL Systems Programming Contest 2023(AtCoder Beginner Contest 286)",
     "Start": "2023-01-21 17:30:00 +0530 IST"
    },
-   "4": {
+   "3": {
     "Name": "AtCoder Regular Contest 154",
     "Start": "2023-01-22 17:30:00 +0530 IST"
    },
-   "5": {
+   "4": {
     "Name": "AtCoder Heuristic Contest 017",
     "Start": "2023-01-28 08:30:00 +0530 IST"
    },
-   "6": {
+   "5": {
     "Name": "UNIQUE VISION Programming Contest 2023 New Year (AtCoder Beginner Contest 287)",
     "Start": "2023-01-28 17:30:00 +0530 IST"
    },
-   "7": {
+   "6": {
     "Name": "AtCoder Regular Contest 155",
     "Start": "2023-01-29 17:30:00 +0530 IST"
    },
-   "8": {
+   "7": {
     "Name": "AtCoder Grand Contest 061",
     "Start": "2023-02-12 17:30:00 +0530 IST"
    },
+   "8": {},
    "9": {}
   }
  },
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "JAN231",
-    "Duration": "2580",
-    "End": "16 Jan 2023  15:00:00",
-    "Name": "January Long 2022 (Rated for Divs 3 \u0026 4)",
-    "Start": "14 Jan 2023  20:00:00"
-   },
-   "2": {
     "Code": "START74",
     "Duration": "180",
     "End": "18 Jan 2023  23:00:00",
     "Name": "Starters 74 (Rated till 6 Stars)",
     "Start": "18 Jan 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START75",
     "Duration": "180",
     "End": "25 Jan 2023  23:00:00",
@@ -62,6 +52,11 @@
   },
   "PresentContests": {
    "1": {
+    "Code": "JAN231",
+    "Name": "January Long 2022 (Rated for Divs 3 \u0026 4)",
+    "Start": "14 Jan 2023  20:00:00"
+   },
+   "2": {
     "Code": "GAMES",
     "Name": "1v1 Games by CodeChef",
     "Start": "10 Oct 2022  12:00:00"
