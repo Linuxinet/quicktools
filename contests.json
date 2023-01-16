@@ -49,11 +49,6 @@
   },
   "PresentContests": {
    "1": {
-    "Code": "JAN231",
-    "Name": "January Long 2022 (Rated for Divs 3 \u0026 4)",
-    "Start": "14 Jan 2023  20:00:00"
-   },
-   "2": {
     "Code": "GAMES",
     "Name": "1v1 Games by CodeChef",
     "Start": "10 Oct 2022  12:00:00"
