@@ -17,7 +17,10 @@
     "Name": "AtCoder Grand Contest 061",
     "Start": "2023-02-12 17:30:00 +0530 IST"
    },
-   "5": {},
+   "5": {
+    "Name": "AtCoder Regular Contest 156",
+    "Start": "2023-02-25 17:30:00 +0530 IST"
+   },
    "6": {},
    "7": {},
    "8": {},
@@ -30,7 +33,7 @@
     "Code": "START75",
     "Duration": "180",
     "End": "25 Jan 2023  23:00:00",
-    "Name": "Starters 75",
+    "Name": "Starters 75 (Rated till 6-Stars)",
     "Start": "25 Jan 2023  20:00:00"
    },
    "2": {
