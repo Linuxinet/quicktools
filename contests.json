@@ -22,10 +22,13 @@
     "Start": "2023-04-23 11:30:00 +0530 IST"
    },
    "6": {
+    "Name": "ユニークビジョンプログラミングコンテスト2023 春 (AtCoder Beginner Contest 300)",
+    "Start": "2023-04-29 17:30:00 +0530 IST"
+   },
+   "7": {
     "Name": "AtCoder Grand Contest 062",
     "Start": "2023-04-30 17:30:00 +0530 IST"
    },
-   "7": {},
    "8": {},
    "9": {}
   }
@@ -33,30 +36,23 @@
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "START84",
-    "Duration": "120",
-    "End": "05 Apr 2023  22:00:00",
-    "Name": "Starters 84 (Rated till 6 stars)",
-    "Start": "05 Apr 2023  20:00:00"
-   },
-   "2": {
     "Code": "START85",
-    "Duration": "180",
-    "End": "12 Apr 2023  23:00:00",
+    "Duration": "120",
+    "End": "12 Apr 2023  22:00:00",
     "Name": "Starters 85",
     "Start": "12 Apr 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START86",
-    "Duration": "180",
-    "End": "19 Apr 2023  23:00:00",
+    "Duration": "120",
+    "End": "19 Apr 2023  22:00:00",
     "Name": "Starters 86",
     "Start": "19 Apr 2023  20:00:00"
    },
-   "4": {
+   "3": {
     "Code": "START87",
-    "Duration": "180",
-    "End": "26 Apr 2023  23:00:00",
+    "Duration": "120",
+    "End": "26 Apr 2023  22:00:00",
     "Name": "Starters 87",
     "Start": "26 Apr 2023  20:00:00"
    }
