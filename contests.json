@@ -22,10 +22,13 @@
     "Start": "2023-04-30 17:30:00 +0530 IST"
    },
    "6": {
+    "Name": "パナソニックグループプログラミングコンテスト2023（AtCoder Beginner Contest 302）",
+    "Start": "2023-05-13 17:30:00 +0530 IST"
+   },
+   "7": {
     "Name": "AtCoder Regular Contest 160",
     "Start": "2023-05-14 17:30:00 +0530 IST"
    },
-   "7": {},
    "8": {},
    "9": {}
   }
@@ -36,7 +39,7 @@
     "Code": "START85",
     "Duration": "120",
     "End": "12 Apr 2023  22:00:00",
-    "Name": "Starters 85",
+    "Name": "Starters 85 (Rated till 6 stars)",
     "Start": "12 Apr 2023  20:00:00"
    },
    "2": {
