@@ -33,48 +33,41 @@
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "START86",
-    "Duration": "120",
-    "End": "19 Apr 2023  22:00:00",
-    "Name": "Starters 86 (Rated for all)",
-    "Start": "19 Apr 2023  20:00:00"
-   },
-   "2": {
     "Code": "START87",
     "Duration": "120",
     "End": "26 Apr 2023  22:00:00",
     "Name": "Starters 87",
     "Start": "26 Apr 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START88",
     "Duration": "120",
     "End": "03 May 2023  22:00:00",
     "Name": "STARTERS 88",
     "Start": "03 May 2023  20:00:00"
    },
-   "4": {
+   "3": {
     "Code": "START89",
     "Duration": "120",
     "End": "10 May 2023  22:00:00",
     "Name": "STARTERS 89",
     "Start": "10 May 2023  20:00:00"
    },
-   "5": {
+   "4": {
     "Code": "START90",
     "Duration": "120",
     "End": "17 May 2023  22:00:00",
     "Name": "STARTERS 90",
     "Start": "17 May 2023  20:00:00"
    },
-   "6": {
+   "5": {
     "Code": "START91",
     "Duration": "120",
     "End": "24 May 2023  22:00:00",
     "Name": "STARTERS 91",
     "Start": "24 May 2023  20:00:00"
    },
-   "7": {
+   "6": {
     "Code": "START92",
     "Duration": "120",
     "End": "31 May 2023  22:00:00",
