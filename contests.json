@@ -1,26 +1,11 @@
 {
  "AtCoder": {
   "FutureContests": {
-   "1": {
-    "Name": "ユニークビジョンプログラミングコンテスト2023 春 (AtCoder Beginner Contest 300)",
-    "Start": "2023-04-29 17:30:00 +0530 IST"
-   },
-   "2": {
-    "Name": "AtCoder Grand Contest 062",
-    "Start": "2023-04-30 17:30:00 +0530 IST"
-   },
-   "3": {
-    "Name": "パナソニックグループプログラミングコンテスト2023（AtCoder Beginner Contest 301）",
-    "Start": "2023-05-13 17:30:00 +0530 IST"
-   },
-   "4": {
-    "Name": "AtCoder Regular Contest 160",
-    "Start": "2023-05-14 17:30:00 +0530 IST"
-   },
-   "5": {
-    "Name": "ALGO ARTIS Programming Contest 2023（AtCoder Heuristic Contest 020）",
-    "Start": "2024-04-23 11:30:00 +0530 IST"
-   },
+   "1": {},
+   "2": {},
+   "3": {},
+   "4": {},
+   "5": {},
    "6": {},
    "7": {},
    "8": {},
@@ -40,35 +25,35 @@
     "Code": "START88",
     "Duration": "120",
     "End": "03 May 2023  22:00:00",
-    "Name": "STARTERS 88",
+    "Name": "Starters 88",
     "Start": "03 May 2023  20:00:00"
    },
    "3": {
     "Code": "START89",
     "Duration": "120",
     "End": "10 May 2023  22:00:00",
-    "Name": "STARTERS 89",
+    "Name": "Starters 89",
     "Start": "10 May 2023  20:00:00"
    },
    "4": {
     "Code": "START90",
     "Duration": "120",
     "End": "17 May 2023  22:00:00",
-    "Name": "STARTERS 90",
+    "Name": "Starters 90",
     "Start": "17 May 2023  20:00:00"
    },
    "5": {
     "Code": "START91",
     "Duration": "120",
     "End": "24 May 2023  22:00:00",
-    "Name": "STARTERS 91",
+    "Name": "Starters 91",
     "Start": "24 May 2023  20:00:00"
    },
    "6": {
     "Code": "START92",
     "Duration": "120",
     "End": "31 May 2023  22:00:00",
-    "Name": "STARTERS 92",
+    "Name": "Starters 92",
     "Start": "31 May 2023  20:00:00"
    }
   },
