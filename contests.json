@@ -23,7 +23,7 @@
    },
    "6": {
     "Name": "ALGO ARTIS Programming Contest 2023（AtCoder Heuristic Contest 020）",
-    "Start": "2024-04-23 11:30:00 +0530 IST"
+    "Start": "2023-06-11 11:30:00 +0530 IST"
    },
    "7": {},
    "8": {},
@@ -33,27 +33,20 @@
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "START89",
-    "Duration": "120",
-    "End": "10 May 2023  22:00:00",
-    "Name": "Starters 89 (Rated till 5 Stars)",
-    "Start": "10 May 2023  20:00:00"
-   },
-   "2": {
     "Code": "START90",
     "Duration": "120",
     "End": "17 May 2023  22:00:00",
     "Name": "Starters 90",
     "Start": "17 May 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START91",
     "Duration": "120",
     "End": "24 May 2023  22:00:00",
     "Name": "Starters 91",
     "Start": "24 May 2023  20:00:00"
    },
-   "4": {
+   "3": {
     "Code": "START92",
     "Duration": "120",
     "End": "31 May 2023  22:00:00",
