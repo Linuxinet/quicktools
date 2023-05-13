@@ -2,33 +2,30 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "パナソニックグループプログラミングコンテスト2023（AtCoder Beginner Contest 301）",
-    "Start": "2023-05-13 17:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "AtCoder Regular Contest 160",
     "Start": "2023-05-14 17:30:00 +0530 IST"
    },
-   "3": {
+   "2": {
     "Name": "TOYOTA MOTOR CORPORATION Programming Contest 2023#2 (AtCoder Beginner Contest 302)",
     "Start": "2023-05-20 17:30:00 +0530 IST"
    },
-   "4": {
+   "3": {
     "Name": "AtCoder Grand Contest 062",
     "Start": "2023-05-21 17:30:00 +0530 IST"
    },
-   "5": {
+   "4": {
     "Name": "日鉄ソリューションズプログラミングコンテスト2023（AtCoder Beginner Contest 303）",
     "Start": "2023-05-27 17:30:00 +0530 IST"
    },
-   "6": {
+   "5": {
     "Name": "AtCoder Regular Contest 161",
     "Start": "2023-05-28 17:30:00 +0530 IST"
    },
-   "7": {
+   "6": {
     "Name": "ALGO ARTIS Programming Contest 2023（AtCoder Heuristic Contest 020）",
     "Start": "2023-06-11 11:30:00 +0530 IST"
    },
+   "7": {},
    "8": {},
    "9": {}
   }
