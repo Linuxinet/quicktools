@@ -25,7 +25,10 @@
     "Name": "AtCoder Beginner Contest 308",
     "Start": "2023-07-01 17:30:00 +0530 IST"
    },
-   "7": {},
+   "7": {
+    "Name": "Denso Create Programming Contest 2023 (AtCoder Beginner Contest 309)",
+    "Start": "2023-07-08 17:30:00 +0530 IST"
+   },
    "8": {},
    "9": {}
   }
@@ -36,7 +39,7 @@
     "Code": "START93",
     "Duration": "120",
     "End": "07 Jun 2023  22:00:00",
-    "Name": "Starters 93",
+    "Name": "Starters 93 (Rated for All)",
     "Start": "07 Jun 2023  20:00:00"
    },
    "2": {
