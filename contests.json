@@ -39,20 +39,13 @@
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "START94",
-    "Duration": "120",
-    "End": "14 Jun 2023  22:00:00",
-    "Name": "Starters 94 (Rated till 5 Stars)",
-    "Start": "14 Jun 2023  20:00:00"
-   },
-   "2": {
     "Code": "START95",
     "Duration": "120",
     "End": "21 Jun 2023  22:00:00",
     "Name": "Starters 95",
     "Start": "21 Jun 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START96",
     "Duration": "120",
     "End": "28 Jun 2023  22:00:00",
