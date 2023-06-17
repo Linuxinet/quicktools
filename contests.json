@@ -2,41 +2,38 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "Toyota Programming Contest 2023#3（AtCoder Beginner Contest 306）",
-    "Start": "2023-06-17 17:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "AtCoder Regular Contest 162",
     "Start": "2023-06-18 17:30:00 +0530 IST"
    },
-   "3": {
+   "2": {
     "Name": "Tokio Marine \u0026 Nichido Fire Insurance Programming Contest 2023（AtCoder Beginner Contest 307)",
     "Start": "2023-06-24 17:30:00 +0530 IST"
    },
-   "4": {
+   "3": {
     "Name": "TOYOTA Programming Contest 2023 Summer（AtCoder Heuristic Contest 021）",
     "Start": "2023-06-25 11:30:00 +0530 IST"
    },
-   "5": {
+   "4": {
     "Name": "AtCoder Beginner Contest 308",
     "Start": "2023-07-01 17:30:00 +0530 IST"
    },
-   "6": {
+   "5": {
     "Name": "AtCoder Regular Contest 163",
     "Start": "2023-07-02 17:30:00 +0530 IST"
    },
-   "7": {
+   "6": {
     "Name": "Denso Create Programming Contest 2023 (AtCoder Beginner Contest 309)",
     "Start": "2023-07-08 17:30:00 +0530 IST"
    },
-   "8": {
+   "7": {
     "Name": "AtCoder Regular Contest 164",
     "Start": "2023-07-09 17:30:00 +0530 IST"
    },
-   "9": {
+   "8": {
     "Name": "freee Programming Contest 2023（AtCoder Beginner Contest 310）",
     "Start": "2023-07-15 17:30:00 +0530 IST"
-   }
+   },
+   "9": {}
   }
  },
  "CodeChef": {
