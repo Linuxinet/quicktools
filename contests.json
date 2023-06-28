@@ -42,34 +42,27 @@
  "CodeChef": {
   "FutureContests": {
    "1": {
-    "Code": "START96",
-    "Duration": "120",
-    "End": "28 Jun 2023  22:00:00",
-    "Name": "Starters 96 (Rated till 5 Stars)",
-    "Start": "28 Jun 2023  20:00:00"
-   },
-   "2": {
     "Code": "START97",
     "Duration": "120",
     "End": "05 Jul 2023  22:00:00",
     "Name": "Starters 97",
     "Start": "05 Jul 2023  20:00:00"
    },
-   "3": {
+   "2": {
     "Code": "START98",
     "Duration": "120",
     "End": "12 Jul 2023  22:00:00",
     "Name": "Starters 98",
     "Start": "12 Jul 2023  20:00:00"
    },
-   "4": {
+   "3": {
     "Code": "START99",
     "Duration": "120",
     "End": "19 Jul 2023  22:00:00",
     "Name": "Starters 99",
     "Start": "19 Jul 2023  20:00:00"
    },
-   "5": {
+   "4": {
     "Code": "START100",
     "Duration": "120",
     "End": "26 Jul 2023  22:00:00",
