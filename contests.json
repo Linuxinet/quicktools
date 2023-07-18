@@ -43,80 +43,10 @@
   "FutureContests": {
    "1": {
     "Code": "START99",
-    "Duration": "120",
-    "End": "19 Jul 2023  22:00:00",
-    "Name": "Starters 99",
+    "Duration": "135",
+    "End": "19 Jul 2023  22:15:00",
+    "Name": "Starters 99 (Rated till 6 Stars)",
     "Start": "19 Jul 2023  20:00:00"
-   },
-   "10": {
-    "Code": "START108",
-    "Duration": "120",
-    "End": "20 Sep 2023  22:00:00",
-    "Name": "Starters 108",
-    "Start": "20 Sep 2023  20:00:00"
-   },
-   "11": {
-    "Code": "START109",
-    "Duration": "120",
-    "End": "27 Sep 2023  22:00:00",
-    "Name": "Starters 109",
-    "Start": "27 Sep 2023  20:00:00"
-   },
-   "2": {
-    "Code": "START100",
-    "Duration": "120",
-    "End": "26 Jul 2023  22:00:00",
-    "Name": "Starters 100",
-    "Start": "26 Jul 2023  20:00:00"
-   },
-   "3": {
-    "Code": "START101",
-    "Duration": "120",
-    "End": "02 Aug 2023  22:00:00",
-    "Name": "Starters 101",
-    "Start": "02 Aug 2023  20:00:00"
-   },
-   "4": {
-    "Code": "START102",
-    "Duration": "120",
-    "End": "09 Aug 2023  22:00:00",
-    "Name": "Starters 102",
-    "Start": "09 Aug 2023  20:00:00"
-   },
-   "5": {
-    "Code": "START103",
-    "Duration": "120",
-    "End": "16 Aug 2023  22:00:00",
-    "Name": "Starters 103",
-    "Start": "16 Aug 2023  20:00:00"
-   },
-   "6": {
-    "Code": "START104",
-    "Duration": "120",
-    "End": "23 Aug 2023  22:00:00",
-    "Name": "Starters 104",
-    "Start": "23 Aug 2023  20:00:00"
-   },
-   "7": {
-    "Code": "START105",
-    "Duration": "120",
-    "End": "30 Aug 2023  22:00:00",
-    "Name": "Starters 105",
-    "Start": "30 Aug 2023  20:00:00"
-   },
-   "8": {
-    "Code": "START106",
-    "Duration": "120",
-    "End": "06 Sep 2023  22:00:00",
-    "Name": "Starters 106",
-    "Start": "06 Sep 2023  20:00:00"
-   },
-   "9": {
-    "Code": "START107",
-    "Duration": "120",
-    "End": "13 Sep 2023  22:00:00",
-    "Name": "Starters 107",
-    "Start": "13 Sep 2023  20:00:00"
    }
   },
   "PresentContests": {
