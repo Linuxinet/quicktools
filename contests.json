@@ -2,39 +2,39 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "AtCoder Grand Contest 064",
-    "Start": "2023-08-13 17:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "KEYENCE Programming Contest 2023 Summer（AtCoder Beginner Contest 315）",
     "Start": "2023-08-19 17:30:00 +0530 IST"
    },
-   "3": {
+   "2": {
     "Name": "GAMEFREAK Programming Contest 2023 (AtCoder Beginner Contest 317)",
     "Start": "2023-08-26 17:30:00 +0530 IST"
    },
-   "4": {
+   "3": {
     "Name": "TOYOTA Programming Contest 2023 Summer final",
     "Start": "2023-08-27 06:30:00 +0530 IST"
    },
-   "5": {
+   "4": {
     "Name": "THIRD PROGRAMMING CONTEST 2023 ALGO（AtCoder Beginner Contest 318）",
     "Start": "2023-09-02 17:30:00 +0530 IST"
    },
-   "6": {
+   "5": {
     "Name": "10th Asprova Programming Contest（AtCoder Heuristic Contest 023）",
     "Start": "2023-09-03 06:30:00 +0530 IST"
    },
-   "7": {
+   "6": {
     "Name": "World Tour Finals 2022 Day1",
     "Start": "2023-09-08 09:30:00 +0530 IST"
    },
-   "8": {
+   "7": {
     "Name": "World Tour Finals 2022 Day1（Open Contest）",
     "Start": "2023-09-08 09:30:00 +0530 IST"
    },
-   "9": {
+   "8": {
     "Name": "World Tour Finals 2022 Day2",
+    "Start": "2023-09-09 09:30:00 +0530 IST"
+   },
+   "9": {
+    "Name": "World Tour Finals 2022 Day2（Open Contest）",
     "Start": "2023-09-09 09:30:00 +0530 IST"
    }
   }
