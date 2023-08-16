@@ -43,10 +43,10 @@
   "FutureContests": {
    "1": {
     "Code": "START100",
-    "Duration": "120",
+    "Duration": "720",
     "End": "30 Aug 2023  22:00:00",
-    "Name": "Starters 100 (Date to be decided)",
-    "Start": "30 Aug 2023  20:00:00"
+    "Name": "Starters 100 (Unrated)",
+    "Start": "30 Aug 2023  10:00:00"
    }
   },
   "PresentContests": {
