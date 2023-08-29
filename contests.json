@@ -49,12 +49,6 @@
     "Start": "30 Aug 2023  12:00:00"
    }
   },
-  "PresentContests": {
-   "1": {
-    "Code": "GAMES",
-    "Name": "1v1 Games by CodeChef",
-    "Start": "10 Oct 2022  12:00:00"
-   }
-  }
+  "PresentContests": {}
  }
 }
