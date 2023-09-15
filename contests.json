@@ -22,11 +22,17 @@
     "Start": "2023-10-08 17:30:00 +0530 IST"
    },
    "6": {
+    "Name": "Japan Registry Services (JPRS) Programming Contest 2023 (AtCoder Beginner Contest 324)",
+    "Start": "2023-10-14 17:30:00 +0530 IST"
+   },
+   "7": {
     "Name": "AtCoder Regular Contest 167",
     "Start": "2023-10-15 17:30:00 +0530 IST"
    },
-   "7": {},
-   "8": {},
+   "8": {
+    "Name": "Panasonic Programming Contest 2023（AtCoder Beginner Contest 326）",
+    "Start": "2023-10-28 17:30:00 +0530 IST"
+   },
    "9": {}
   }
  },
