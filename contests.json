@@ -2,12 +2,12 @@
  "AtCoder": {
   "FutureContests": {
    "1": {
-    "Name": "SuntoryProgrammingContest2023（AtCoder Beginner Contest 321）",
-    "Start": "2023-09-23 17:30:00 +0530 IST"
-   },
-   "2": {
     "Name": "Marubeni Programming Contest 2023 (AtCoder Heuristic Contest 024)",
     "Start": "2023-09-24 11:30:00 +0530 IST"
+   },
+   "2": {
+    "Name": "AtCoder Beginner Contest 322",
+    "Start": "2023-09-30 17:30:00 +0530 IST"
    },
    "3": {
     "Name": "UNIQUE VISION Programming Contest 2023 Autumn(AtCoder Beginner Contest 323)",
